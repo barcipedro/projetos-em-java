@@ -1,0 +1,21 @@
+package calculamedia;
+import java.util.Scanner;
+public class Media {
+	public static void main(String[] args) {
+		int numeros=0;
+		int soma=0;
+		int cont=0;
+		Scanner s = new Scanner(System.in);
+		System.out.println("Entre com um numero :");
+	
+		for(int tam=0;tam<=9;tam++) {
+		numeros = s.nextInt();
+		soma = numeros + soma;
+		cont++;
+		}		
+		int media=soma/10;
+		s.close();
+		System.out.println("\nA media dos numero digitados e de: "+ media + "\nForam digitados " + cont + " numeros." );
+		
+	}
+}
