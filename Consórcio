@@ -1,0 +1,27 @@
+package paridade;
+
+import java.util.Scanner;
+
+public class paridade {
+	
+	public static void main(String[] args) {
+		int numeros=0;
+		int cont=0;
+		int impar=0;
+		int par=0;
+		int n;
+		Scanner s = new Scanner(System.in);
+		System.out.println("Entre com a quantidade de numeros :");
+		
+		for(int tam=0;tam<=n;tam++) {
+		numeros = s.nextInt();
+		if (numeros>maior) {
+			maior=numeros;	
+		}
+		cont++;
+		}		
+		s.close();
+		System.out.println("\nO maior numero digitado e de: "+ maior + "\nForam digitados " + cont + " numeros." );
+		
+	}
+}
