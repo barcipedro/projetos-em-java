@@ -1,0 +1,31 @@
+package paridade;
+
+import java.util.Scanner;
+
+public class paridade {
+	
+	public static void main(String[] args) {
+		int numeros=0;
+		int npar=0;
+		int nimpar=0;
+		Scanner s = new Scanner(System.in);
+		
+		System.out.println("Digite 0 para sair do programa :");
+		System.out.println("Digite inteiros");
+		
+		numeros=s.nextInt();
+		while(numeros!=0) {
+			if(numeros%2==0) {
+				npar++;
+			}else {
+				nimpar++;
+			}
+			System.out.printf("Digite inteiros");
+			numeros=s.nextInt();
+		}
+		System.out.printf("A quantidade de numeros pares é : %d\n", npar);
+		System.out.printf("A quantidade de numeros impares é : %d\n", nimpar);
+		
+	}
+}
+	
