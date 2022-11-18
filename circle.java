@@ -8,6 +8,9 @@ public class circle {
 		this.raio = raio;
 		this.cor = cor;
 	}
+	public circle() {
+		// TODO Auto-generated constructor stub
+	}
 	public String getCor() {
 		return cor;
 	}
