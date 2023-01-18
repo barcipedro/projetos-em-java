@@ -1,0 +1,25 @@
+Considere uma Imobiliária que trabalha com diversos imóveis residenciais 
+em uma dada região e que está em busca de um sistema para gerenciá-
+los. De um modo geral, os imóveis são definidos por: localização, preço, 
+número de quartos e proprietário. 
+Um imóvel pode ser novo ou usado. Um imóvel novo, além dos dados 
+básicos de um imóvel, possui uma taxa adicional e a informação do seu 
+estado(pronto ou planta). Um imóvel usado, além dos dados básicos de 
+um imóvel, possui uma taxa de desconto no preço e a informação do ano 
+de construção do imóvel.
+Você deve criar as classes acima, aplicando os conceitos de composição, 
+herança, classe abstrata, interface ou polimorfismo trabalhados em aula, 
+de acordo com a necessidade.
+Alguns pontos importantes:
+• Em todas as classes, o método toString() deve ser implementado, 
+retornando os dados do imóvel em questão, além do valor final do imóvel 
+(que deverá ser calculado utilizando um método para isso).
+• Para cada classe, você deve definir construtores e métodos getters 
+e setters de acordo com a necessidade. Além disso, defina um método 
+calcularValorFinal(), que deve aplicar o adicional ou o desconto ao valor 
+do imóvel e retornar o resultado.
+Após a criação das classes, você deve criar uma classe DemoImobiliária
+para utilizar as classes definidas. O programa deve permitir que o usuário 
+cadastre quantos imóveis ele desejar, definindo se será um imóvel usado 
+ou novo. Ao final do cadastro, o programa deve exibir todos os imóveis 
+cadastrados.
